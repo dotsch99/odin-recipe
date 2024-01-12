@@ -1,0 +1,47 @@
+:root {
+    --clr-primary: #fff;
+    --clr-dark: #232323;
+
+    --border-radius: 0.25rem;
+
+    --ff-body: Arial, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: var(--clr-dark);
+
+}
+
+.title {
+    color: var(--clr-primary);
+    font-family: var(--ff-body);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+}
+
+.card {
+    background-color: var(--clr-primary);
+    border-radius: var(--border-radius);
+    color: var(--clr-dark);
+    font-family: var(--ff-body);
+    padding: 1rem;
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
